@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html class='no-js' lang='en'>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type'>
+    <meta charset='utf-8'>
+    <meta content='ie=edge' http-equiv='x-ua-compatible'>
+    <meta content='width=device-width, initial-scale=1.0' name='viewport'>
+    <title>Sasha Chu - Emacs Community</title>
+    <link href="stylesheets/style.css" rel="stylesheet" />
+    <script src="javascripts/modernizr.js"></script>
+  </head>
+  <body class='feed'>
+    <!-- Header -->
+    <header class='header'>
+      <div class='row'>
+        <div class='columns'>
+          <h1 class='site-title'>
+            <a class="logo" href="/">Emacs.el</a>
+            is a podcast about the emacs community
+          </h1>
+        </div>
+        <div class='columns'>
+          <div class='site-links'>
+            <a href="https://github.com/emacs-el/emacs-el.github.io"><i class='fa fa-github'></i>
+            </a>
+            &nbsp;
+            <a href="feed.xml"><i class='fa fa-rss'></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Content -->
+    <?xml version="1.0" encoding="UTF-8"?>
+    <feed xmlns="http://www.w3.org/2005/Atom">
+      <title>The Emacs.el podcast</title>
+      <subtitle>One editor to rule them all!</subtitle>
+      <id>https://github.com/emacs-el/emacs-el.github.io</id>
+      <link href="https://github.com/emacs-el/emacs-el.github.io"/>
+      <link href="https://github.com/emacs-el/emacs-el.github.io/feed.xml" rel="self"/>
+      <updated>2016-02-04T00:00:00-08:00</updated>
+      <author>
+        <name>Daniel Gopar</name>
+      </author>
+      <entry>
+        <title>John Wiegley - Emacs State and Plans</title>
+        <link rel="alternate" href="/episodes/2016/02/04/john-wiegley-emacs-state-and-plans.html"/>
+        <id>/episodes/2016/02/04/john-wiegley-emacs-state-and-plans.html</id>
+        <published>2016-02-04T00:00:00-08:00</published>
+        <updated>2016-02-04T00:00:00-08:00</updated>
+        <author>
+          <name>Daniel Gopar</name>
+        </author>
+        <content type="html">&lt;h3 id="show-notes"&gt;Show notes&lt;/h3&gt;
+    
+    &lt;p&gt;something something yeah yeah yeah&lt;/p&gt;
+    
+    &lt;p&gt;soemthing else&lt;/p&gt;
+    </content>
+      </entry>
+      <entry>
+        <title>Tobias Macey and Chris Patti - VIM and Python</title>
+        <link rel="alternate" href="/episodes/2016/01/02/tobias-macey-and-chris-patti.html"/>
+        <id>/episodes/2016/01/02/tobias-macey-and-chris-patti.html</id>
+        <published>2016-01-02T00:00:00-08:00</published>
+        <updated>2016-01-02T00:00:00-08:00</updated>
+        <author>
+          <name>Daniel Gopar</name>
+        </author>
+        <content type="html">&lt;h3 id="show-notes"&gt;Show Notes:&lt;/h3&gt;
+    
+    &lt;ul&gt;
+      &lt;li&gt;Python Podcast: podcastinit.com&lt;/li&gt;
+      &lt;li&gt;Tobias Twitter: https://twitter.com/TobiasMacey&lt;/li&gt;
+      &lt;li&gt;Chris Twitter: https://twitter.com/feoh&lt;/li&gt;
+    &lt;/ul&gt;
+    </content>
+      </entry>
+      <entry>
+        <title>Samer Masterson - Emacs Conference and Eshell</title>
+        <link rel="alternate" href="/episodes/2015/10/23/samer-masterson.html"/>
+        <id>/episodes/2015/10/23/samer-masterson.html</id>
+        <published>2015-10-23T00:00:00-07:00</published>
+        <updated>2015-10-23T00:00:00-07:00</updated>
+        <author>
+          <name>Daniel Gopar</name>
+        </author>
+        <content type="html">&lt;h3 id="show-notes"&gt;Show Notes:&lt;/h3&gt;
+    
+    &lt;ul&gt;
+      &lt;li&gt;Github: https://github.com/gopar/Emacs.el&lt;/li&gt;
+      &lt;li&gt;YouTube Playlist: https://www.youtube.com/playlist?list=PL3kg5TcOuFlodvwJDtmq-5rKD3DyyXvnb&lt;/li&gt;
+    &lt;/ul&gt;
+    </content>
+      </entry>
+      <entry>
+        <title>Sasha Chu - Emacs Community</title>
+        <link rel="alternate" href="/episodes/2015/10/20/e001-sasha-chu.html"/>
+        <id>/episodes/2015/10/20/e001-sasha-chu.html</id>
+        <published>2015-10-20T00:00:00-07:00</published>
+        <updated>2015-10-20T00:00:00-07:00</updated>
+        <author>
+          <name>Daniel Gopar</name>
+        </author>
+        <content type="html">&lt;h3 id="show-notes"&gt;Show Notes:&lt;/h3&gt;
+    
+    &lt;p&gt;I apologize for mic, I didn’t realize it wasn’t connected&lt;/p&gt;
+    
+    &lt;p&gt;GitHub Repo:&lt;/p&gt;
+    
+    &lt;ul&gt;
+      &lt;li&gt;https://github.com/gopar/Emacs.el&lt;/li&gt;
+    &lt;/ul&gt;
+    
+    &lt;p&gt;Show Notes:&lt;/p&gt;
+    
+    &lt;ul&gt;
+      &lt;li&gt;Sachas Blog: http://sachachua.com/&lt;/li&gt;
+      &lt;li&gt;Recommend blog: http://planet.emacsen.org/&lt;/li&gt;
+      &lt;li&gt;YouTube Playlist: https://www.youtube.com/playlist?list=PL3kg5TcOuFlodvwJDtmq-5rKD3DyyXvnb&lt;/li&gt;
+    &lt;/ul&gt;
+    </content>
+      </entry>
+    </feed>
+    <!-- Footer -->
+    <footer class='footer'>
+      <div class='row'>
+        <div class='columns'>
+          <p>Copyright © 2015 Emacs.el</p>
+          <p>The Emacs.el podcast is made by Daniel Gopar.</p>
+          <script src="javascripts/all.js"></script>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
