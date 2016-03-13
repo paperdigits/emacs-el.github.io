@@ -14,15 +14,14 @@
       .row
         .columns
           %h1.site-title
-            %a.logo{href: "/"}
-              Emacs.el
+            = link_to 'Emacs.el', '/', :class => 'logo'
             is a podcast about the emacs community
         .columns
           .site-links
-            %a{href: "https://github.com/emacs-el/emacs-el.github.io"}
+            = link_to 'https://github.com/emacs-el/emacs-el.github.io' do
               %i.fa.fa-github
             &nbsp;
-            %a{href: "/feed.xml"}
+            = link_to '/feed.xml' do
               %i.fa.fa-rss
     / Content
     = yield

@@ -17,7 +17,7 @@
                 %code audio
                 element
             %p
-              %a{:href => data.page.download} Download
+              = link_to 'Download', data.page.download
               &bullet;
               %time= current_article.date.strftime('%B %e, %Y')
             .episode-meta
@@ -31,11 +31,10 @@
               %ul.recent-episodes
                 - blog.articles[0...5].each do |article|
                   %li.recent
-                    %a{:href => article.url}
+                    = link_to article.url do
                       Episode
                       = article.data.episode
                       \-
                       = article.title
-                    /= link_to article.title, article
                     on
                     = article.date.strftime('%B %e, %Y')

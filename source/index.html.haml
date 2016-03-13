@@ -7,7 +7,7 @@ title: Emacs.el is a podcat about the emacs community
       %article
         %header
           %h2
-            %a{:href => article.url}
+            = link_to article.url do
               Episode
               = article.data.episode
               \-
@@ -18,7 +18,7 @@ title: Emacs.el is a podcat about the emacs community
             %code audio
             element
         %p
-          %a{:href => article.data.download} Download
+          = link_to 'Download', article.data.download
           &bullet;
           %time= article.date.strftime('%Y-%m-%d')
         %p
