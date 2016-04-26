@@ -12,18 +12,19 @@ title: Emacs.el is a podcat about the emacs community
               = article.data.episode
               \-
               = article.title
-        %audio{:controls => "", :src => article.data.download}
-          %p
-            Your browser does not support the
-            %code audio
-            element
         %p
           = link_to 'Download', article.data.download
           &bullet;
           %time= article.date.strftime('%Y-%m-%d')
         %p
           %span= article.data.description
+        -# the tag below seems to eat other tags at the same level
+        = tag :audio, :controls => "", :src => article.data.download do
+          %p
+            Your browser does not support the
+            %code audio
+            element
 
         -# = article.data.download
         -# = article.summary
-        %hr
+      %hr
